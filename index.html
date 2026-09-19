@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RV Checklist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="card">
+      <header>
+        <p class="eyebrow">Departure prep</p>
+        <h1>RV Checklist</h1>
+        <p id="progressText" class="progress-text">0 of 9 complete</p>
+        <div class="progress-track" aria-hidden="true">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+      </header>
+
+      <ul id="checklist" class="checklist" aria-label="RV checklist"></ul>
+
+      <div class="actions">
+        <button id="checkAllButton" type="button">Check all</button>
+        <button id="resetButton" type="button" class="secondary">Reset checklist</button>
+      </div>
+
+      <p class="note">Your checked items are remembered on this device.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
