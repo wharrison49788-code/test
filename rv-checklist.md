@@ -6,3 +6,5 @@
 - [ ] Test backup camera
 - [ ] Check propane level
 - [ ] Secure loose interior items
+- [ ] Check fire extinguisher
+- [ ] Inspect exterior lights
