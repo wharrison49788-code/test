@@ -8,3 +8,4 @@
 - [ ] Secure loose interior items
 - [ ] Check fire extinguisher
 - [ ] Inspect exterior lights
+- [ ] Check generator oil level
